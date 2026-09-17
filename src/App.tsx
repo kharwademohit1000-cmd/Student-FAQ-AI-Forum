@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Compass, Bot, User, Send, ArrowRight, Settings } from 'lucide-react';
+import { Compass, Bot, User, Settings } from 'lucide-react';
 
 const SYSTEM_PROMPT = `You are Student FAQ AI, an expert academic counselor and campus life guide for college students. Answer user's questions regarding college academics, choosing majors, campus life, study techniques, internships, and university resources. Keep your responses practical, structured, and supportive. Use markdown formatting to organize your answers.`;
 
